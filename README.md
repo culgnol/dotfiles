@@ -8,3 +8,5 @@ Apps
 - iTerm
 - Sublime
 - Github Desktop
+- Visual Studio Code
+  - extensions
