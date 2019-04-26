@@ -25,7 +25,7 @@ echo "In /Applications folder, hold down the CMD key and drag the app into Finde
 # Apps
 brew cask install sublime-text
 brew cask install iterm2
-
+brew cask install visual-studio-code
 
 # Remove outdated versions from the cellar
 brew cleanup
