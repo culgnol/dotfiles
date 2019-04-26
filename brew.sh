@@ -17,6 +17,11 @@ brew install hub
 # json parser - https://stedolan.github.io
 brew install jq
 
+# https://github.com/junegunn/fzf
+brew install fzf
+
+brew install tree
+
 # https://github.com/Ji4n1ng/OpenInTerminal
 brew cask install openinterminal-lite
 echo "brew install: https://github.com/Ji4n1ng/OpenInTerminal" >> $followupfile
