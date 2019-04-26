@@ -1,4 +1,4 @@
-# mac-setup
+# dotfiles
 
 Setup
 - Homebrew
