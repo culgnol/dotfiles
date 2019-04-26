@@ -1,5 +1,7 @@
 #!/bin/bash
 
+followupfile="hey_brew.txt"
+
 # Install command-line tools using Homebrew
 
 # Make sure we’re using the latest Homebrew
@@ -14,6 +16,16 @@ brew install hub
 
 # json parser - https://stedolan.github.io
 brew install jq
+
+# https://github.com/Ji4n1ng/OpenInTerminal
+brew cask install openinterminal-lite
+echo "brew install: https://github.com/Ji4n1ng/OpenInTerminal" >> $followupfile
+echo "In /Applications folder, hold down the CMD key and drag the app into Finder Toolbar" >> $followupfile
+
+# Apps
+brew cask install sublime-text
+brew cask install iterm2
+
 
 # Remove outdated versions from the cellar
 brew cleanup
