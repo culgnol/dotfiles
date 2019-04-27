@@ -1,5 +1,8 @@
 # dotfiles
 
+gurus:
+- https://github.com/paulirish/dotfiles
+
 Setup
 - Homebrew
   - wget
