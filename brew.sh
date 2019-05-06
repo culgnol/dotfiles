@@ -31,6 +31,8 @@ echo "In /Applications folder, hold down the CMD key and drag the app into Finde
 brew cask install sublime-text
 brew cask install iterm2
 brew cask install visual-studio-code
+brew cask install virtualbox
+brew cask install freemind
 
 # Remove outdated versions from the cellar
 brew cleanup
