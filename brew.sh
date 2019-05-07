@@ -10,6 +10,10 @@ brew update
 # Upgrade any already-installed formulae
 brew upgrade
 
+# package managers
+brew install node
+brew install yarn
+
 # github util. gotta love `hub fork`, `hub create`, `hub checkout <PRurl>`
 # https://hub.github.com
 brew install hub
